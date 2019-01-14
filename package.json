@@ -21,6 +21,7 @@
     "e2e": "./node_modules/.bin/babel-node run-e2e.js"
   },
   "devDependencies": {
+    "@angular/cli": "^7.2.1",
     "angular-mocks": "1.5.5",
     "babel-cli": "^6.23.0",
     "babel-polyfill": "^6.7.4",
