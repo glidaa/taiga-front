@@ -1,0 +1,15 @@
+.register-sales-top {
+    background: $white;
+    color: $gray;
+    display: block;
+    padding: 5px;
+    text-align: center;
+    .register-text-top {
+        display: block;
+        margin: 1rem 0;
+        text-align: center;
+    }
+    .register-text {
+        @include font-size(small);
+    }
+}

@@ -6,19 +6,46 @@ html(lang="en", ng-attr-dir="{{ isRTL ? 'rtl' : 'ltr' }}")
         meta(name="fragment", content="!")
 
         // Main meta
-        title Taiga
-        meta(name="description", content="Taiga is a project management platform for startups and agile developers & designers who want a simple, beautiful tool that makes work truly enjoyable.")
-        meta(name="keywords", content="agile, scrum, taiga, management, project, developer, designer, user experience")
+        title Trackita
+        meta(name="description", content="Trackita is a project management platform for tracking simple tasks that will grow as you become more agile.")
+        meta(name="keywords", content="agile, scrum, trackita, management, project, developer, designer, user experience")
 
         //-meta(name="viewport", content="width=device-width, user-scalable=no")
         link(rel="stylesheet", href="/#{v}/styles/theme-taiga.css")
         link(rel="icon", type="image/png", href="/#{v}/images/favicon.png")
+
+        //- Bootstrap 
+        script( src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js' ).
+        script( src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js' ).
+
+        //- Analytics 
+        script.
+            var trackID, domainID;
+            trackID = 'UA-134048802-1'; //eg: 'UA-34398778-4'.
+            domainID = 'trackita.com'; //eg: 'studio7designs.com'.
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () { 
+                    (i[r].q = i[r].q || []).push(arguments);
+                },
+                i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.defer = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a,m)
+            })(window, document, 'script','//www.google-analytics.com/analytics.js', 'ga');
+            ga('create', trackID, domainID);
+            ga('send', 'pageview');
+
 
         //- PRERENDER SERVICE: This is to know when the page is completely loaded.
         script(type='text/javascript').
             window.prerenderReady = false;
 
     body(tg-main, ng-class="{'rtl': isRTL}")
+
         div(tg-navigation-bar, ng-if="!errorHandling.showingError")
         div(ng-if="!errorHandling.showingError")
             div.master(ng-view)

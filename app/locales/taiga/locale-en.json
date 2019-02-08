@@ -130,7 +130,7 @@
         "ADD": "Add tag"
       },
       "DESCRIPTION": {
-        "EMPTY": "Empty space is so boring... go on be descriptive...",
+        "EMPTY": "Enter description",
         "NO_DESCRIPTION": "No description yet"
       },
       "FIELDS": {
@@ -319,6 +319,21 @@
     },
     "REGISTER_FORM": {
       "TITLE": "Register a new Trackita account (free)",
+      "SALES_01": "Your free Agile Project Management Tool for Unlimited Users",
+      "SALES_02": "Trackita is a free project management tool that allows you to manage your tasks.",
+      "SALES_03": "Let your team focus on the goals and daily tasks that will enable them to finish the project successfully.",
+      "SALES_04": "Unfamiliar with Agile but want to use Agile techniques - this is the tool for you. You can learn how to easily start using Agile techniques.",
+      "SALES_05": "Be Organised",
+      "SALES_06": "You can enter your tasks as you think of them and then group them and manage them to ensure you and your team are organised",
+      "SALES_07": "Be Trackable",
+      "SALES_08": "There are 4 ways to look at what is happening and ensure your are on track.",
+      "SALES_09": "Be On-time",
+      "SALES_10": "See what has to be done to meet your goals on time. Add resources when you need them. Manage your issues so they are not blockers.",
+      "SALES_11": "Trackita gives you and your team everything you need to stay on track and be able to communicate. You can attach documents to tasks to enable communication.",
+      "SALES_12": "Trackita gives you different ways to look at progress. You can view using the Epics report, Backlkog, Taskboard or Kanban views.",
+      "SALES_13": "Start quickly and build your plan as you go.",
+      "SALES_14": "Future Releases over 2019 and 2020, we will be adding significantly to the current system by providing a principal screen to manage your tasks and by providing a mobile application.",
+      "SALES_15": "Register now for a free account",
       "PLACEHOLDER_NAME": "Pick a username (case sensitive)",
       "PLACEHOLDER_FULL_NAME": "Pick your full name",
       "PLACEHOLDER_EMAIL": "Your email",
@@ -1362,7 +1377,7 @@
       }
     },
     "ERROR": {
-      "TEXT1": "Something happened and we are working on it.",
+      "TEXT1": "Something happened and we are working on it. Test",
       "NOT_FOUND": "Not found",
       "NOT_FOUND_TEXT": "Error 404. The page you are looking for no longer exists. Perhaps you can return back to Trackita homepage and see if you can find what you are looking for.",
       "PERMISSION_DENIED": "Permission denied",
@@ -1762,14 +1777,14 @@
         },
         "STEP2": {
           "TITLE": "Product backlog",
-          "TEXT": "The backlog is the list of requirements (User Stories) for the project. Here is where you will plan your sprints."
+          "TEXT": "The backlog is the list of requirements (Tasks) for the project. Here is where you will plan your sprints."
         },
         "STEP3": {
           "TITLE": "Sprints",
           "TEXT": "Sprints are short periods of time (usually 2 weeks) during which specific work has to be completed and delivered."
         },
         "STEP4": {
-          "TITLE": "User Stories",
+          "TITLE": "Tasks",
           "TEXT": "Those are the requirements at high level. You can add them to the backlog and drag them to the sprint in which it should be delivered."
         }
       },
@@ -1780,10 +1795,10 @@
         },
         "STEP2": {
           "TITLE": "User Stories & Tasks",
-          "TEXT": "User Stories are the requirements at high level. You can drag them to different columns."
+          "TEXT": "Tasks are User Stories with requirements at high level. You can drag them to different columns."
         },
         "STEP3": {
-          "TITLE": "Adding User Stories",
+          "TITLE": "Adding Tasks",
           "TEXT1": "You may want to add a single Task (add US icon) or a group of them (bulk icon)",
           "TEXT2": "Good luck!"
         }
@@ -1792,7 +1807,7 @@
     "DISCOVER": {
       "PAGE_TITLE": "Discover projects - Trackita",
       "PAGE_DESCRIPTION": "Searchable directory of Public Projects in Trackita. Explore backlogs, timelines, issues, and teams. Check out the most liked or most active projects. Filter by Kanban or Scrum.",
-      "DISCOVER_TITLE": "Discover projects",
+      "DISCOVER_TITLE": "Current projects",
       "DISCOVER_SUBTITLE": "{projects, plural, one{One public project to discover} other{# public projects to discover}}",
       "MOST_ACTIVE": "Most active",
       "MOST_ACTIVE_EMPTY": "There are no ACTIVE projects yet",

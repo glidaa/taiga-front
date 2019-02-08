@@ -727,7 +727,7 @@ gulp.task("watch", function() {
 
     gulp.watch(paths.jade, ["jade-watch"]);
     gulp.watch(paths.sass_watch, ["styles-lint"]);
-    gulp.watch(paths.styles_dependencies, ["styles-dependencies"]);
+    gulp.watch(paths.styles_dependencies, ["styles-dependencies"]); 
     gulp.watch(paths.svg, ["copy-svg"]);
     gulp.watch(paths.coffee, ["app-watch"]);
     gulp.watch(paths.libs, ["jslibs-watch"]);

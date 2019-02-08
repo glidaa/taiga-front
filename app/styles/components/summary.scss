@@ -61,7 +61,8 @@ $summary-background: $grayer;
             }
         }
         svg {
-            fill: $black;
+            fill: $white;
+            font-weight: bold;
             height: 100%;
             max-height: 2rem;
             max-width: 2rem;

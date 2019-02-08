@@ -1,7 +1,10 @@
 .register-form-container {
     display: block;
     .register-text-top {
+        color: $light-blue;
         display: block;
+        font-size: 120%;
+        font-weight: bold;
         margin: 1rem 0;
         text-align: center;
     }

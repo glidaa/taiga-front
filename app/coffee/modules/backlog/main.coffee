@@ -1015,7 +1015,7 @@ ToggleBurndownVisibility = ($storage) ->
         $(".js-toggle-burndown-visibility-button").addClass("active")
 
         if firstLoad
-            $(".js-burndown-graph").addClass("shown")
+            
         else
             $(".js-burndown-graph").addClass("open")
 
@@ -1028,7 +1028,7 @@ ToggleBurndownVisibility = ($storage) ->
             if $scope.isBurndownGraphCollapsed
                 hide(firstLoad)
             else
-                show(firstLoad)
+                show(firstLoad) 
 
             firstLoad = false
 
