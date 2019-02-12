@@ -1,7 +1,7 @@
 window._version = "___VERSION___"
 
 window.taigaConfig = {
-    "api": "http://trackita.com/api/v1/",
+    "api": "https://trackita.com/api/v1/",
     "eventsUrl": null,
     "tribeHost": null,
     "eventsMaxMissedHeartbeats": 5,

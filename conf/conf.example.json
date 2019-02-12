@@ -20,5 +20,9 @@
     "tribeHost": null,
     "importers": [],
     "gravatar": true,
-    "rtlLanguages": ["fa"]
+    "rtlLanguages": ["fa"],
+    "analytics": [  "accountId": "UA-134048802-1", 
+                    "pageEvent": "$routeChangeSuccess",
+                    "trackRoutes":  true,
+                    "ignoreFirstPageLoad": true]
 }
